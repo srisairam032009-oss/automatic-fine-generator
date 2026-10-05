@@ -1,0 +1,23 @@
+
+========================================
+          TRAFFIC FINE RECEIPT
+========================================
+
+Fine ID       : F20261005103822
+
+Name          : srisairam
+Phone         : 9566505747
+Vehicle No    : tn07ss9495
+Vehicle Type  : Bike
+
+Violation     : No Helmet
+Fine Amount   : ₹1000.0
+
+Fine Date     : 05-10-2026 10:38:22
+Due Date      : 20-10-2026
+
+Payment Status: PAID
+
+========================================
+          THANK YOU
+========================================

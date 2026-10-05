@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Automatic Fine Generator</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+        }
+
+        .header {
+            background: #172554;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #ccc;
+        }
+
+        h2 {
+            color: #172554;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+    <h1>🚨 Automatic Fine Generator</h1>
+
+    <p>Traffic Fine Management System</p>
+
+</div>
+
+
+<div class="container">
+
+    <div class="box">
+
+        <h2>Generate Fine</h2>
+
+
+        <form>
+
+            <label>Person Name</label>
+
+            <input
+                type="text"
+                placeholder="Enter person name"
+            >
+
+
+            <label>Phone Number</label>
+
+            <input
+                type="text"
+                placeholder="Enter phone number"
+            >
+
+
+            <label>Vehicle Number</label>
+
+            <input
+                type="text"
+                placeholder="TN00AB0000"
+            >
+
+
+            <label>Vehicle Type</label>
+
+            <select>
+
+                <option>Select Vehicle</option>
+                <option>Bike</option>
+                <option>Car</option>
+                <option>Auto</option>
+                <option>Bus</option>
+                <option>Truck</option>
+
+            </select>
+
+
+            <label>Violation</label>
+
+            <select>
+
+                <option>Select Violation</option>
+                <option>No Helmet</option>
+                <option>No Seat Belt</option>
+                <option>Over Speeding</option>
+                <option>Signal Jump</option>
+                <option>Wrong Parking</option>
+                <option>Driving Without License</option>
+
+            </select>
+
+
+            <button type="button">
+
+                Generate Fine
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
